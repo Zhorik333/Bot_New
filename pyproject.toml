@@ -1,0 +1,13 @@
+[project]
+name = "bot-new"
+version = "0.1.0"
+description = "Telegram bot foundation: Python + aiogram + PostgreSQL"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.7,<4",
+    "asyncpg>=0.29,<1",
+    "python-dotenv>=1.0,<2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
